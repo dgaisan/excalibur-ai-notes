@@ -8,14 +8,60 @@ Artificial Intelligence - trying to match capabilities of a human
 	- Motion/Robotics
 
 ML(Machine Learning) vs DL(Deep Learning)
-	- ML (broader field within artificial intelligence where algorithms learn from data to make predictions or decisions without being explicitly programmed)
+	- ML
+        - broader field within artificial intelligence where algorithms learn from data to make predictions or decisions without being explicitly programmed
 
-		- Supervised leaning
-		- Unsupervised learning
-		- Reinforcement learning
-
-	- DL (subset of ML, but it’s more specialized and focused on using neural networks with multiple layers, often called deep neural networks, to automatically learn features and perform complex tasks)
+        - Approaches
+		    - Supervised leaning
+                - a category of machine learning that uses labeled datasets to train algorithms to predict outcomes and recognize patterns. 
+                - unlike unsupervised learning, supervised learning algorithms are given labeled training to learn the relationship between the input and the outputs
+		    
+            - Unsupervised learning
+                - a type of ML that learns from data without human supervision. 
+                - unlike supervised learning, unsupervised ML models are given unlabeled data and allowed to discover patterns and insights without any explicit guidance or instruction
 		
-		- Convolutional Neural Networks (CNNs)
-		- Recurrent Neural Networks (RNNs)
-		- Generative Adversarial Networks (GANs)
+            - Reinforcement learning
+                - type of machine learning that allows machines to learn how to take actions in an environment so as to maximize a reward
+	            - mimics the trial-and-error learning process that humans use to achieve their goals
+
+	- DL 
+        - subset of ML, but it’s more specialized and focused on using neural networks with multiple layers (often called deep neural networks) to automatically learn features and perform complex tasks
+        - enables computers to learn from big data
+	    - uses neural nets with many layers
+	    - deep learning is not ML (just a subset)
+	    - a method in artificial intelligence (AI) that teaches computers to process data in a way that is inspired by the human brain
+	    - millions examples are given, and the model tries to extract some sense based on the data that it has and input it’s given
+
+
+        - Types
+		    - Convolutional Neural Networks (CNNs)
+                - type of deep learning model
+	            - great for tasks involving images, like recognizing objects or faces 
+	            - a CNN is a regularized type of feed-forward neural network that learns features by itself via filter optimization
+	            - automatically learning to spot important features in images, such as edges, textures, or shapes, without needing to be manually told what to look for.
+
+		    - Recurrent Neural Networks (RNNs)
+                - type of deep learning model designed to handle sequential data
+	            - great for time series, text, or audio, where the order of the data matters
+
+		    - Generative Adversarial Networks (GANs)
+                - GAN is a type of deep learning model used to generate new, realistic data similar to the data it’s trained on.
+
+
+Data Science
+	- Data Engineering 
+		- the practice of designing and building systems for collecting, storing, and analyzing data at scale
+	- Data analytics/analysis
+		- converts raw data into actionable insights. It includes a range of tools, technologies, and processes used to find trends and solve problems by using data
+	- Data Mining
+		- the overall process of identifying patterns and extracting useful insights from big data sets
+	- Data visualization
+		- the graphical representation of information and data
+	- Data governance
+		- integrity, quality, 
+	- Business Intelligence (BI)
+		- a broad term that encompasses data mining, process analysis, performance benchmarking, and descriptive analytics
+	- Big Data
+		- extremely large and diverse collections of structured, unstructured, and semi-structured data that continues to grow exponentially over time. 
+		- These datasets are so huge and complex in volume, velocity, and variety, that traditional data management systems cannot store, process, and analyze them
+
