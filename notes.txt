@@ -1,0 +1,21 @@
+Artificial Intelligence - trying to match capabilities of a human
+	- ability to discover
+	- ability to reason
+	- ability to infer
+	- Natural Language Processing
+	- Vision
+	- text to speech
+	- Motion/Robotics
+
+ML(Machine Learning) vs DL(Deep Learning)
+	- ML (broader field within artificial intelligence where algorithms learn from data to make predictions or decisions without being explicitly programmed)
+
+		- Supervised leaning
+		- Unsupervised learning
+		- Reinforcement learning
+
+	- DL (subset of ML, but it’s more specialized and focused on using neural networks with multiple layers, often called deep neural networks, to automatically learn features and perform complex tasks)
+		
+		- Convolutional Neural Networks (CNNs)
+		- Recurrent Neural Networks (RNNs)
+		- Generative Adversarial Networks (GANs)
