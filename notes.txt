@@ -65,3 +65,38 @@ Data Science
 		- extremely large and diverse collections of structured, unstructured, and semi-structured data that continues to grow exponentially over time. 
 		- These datasets are so huge and complex in volume, velocity, and variety, that traditional data management systems cannot store, process, and analyze them
 
+
+Math behind Data Science, ML, DL
+    - Vectors: 
+        - mathimatical entity that has magnitute (size) and direction. 
+        - Normally represented by an array of numbers (x, y) = (3, 2); (x, y, z) = (3, 2, 5)
+        - operate in multiple dimensions: (1,2,4,1,2,5,6,7,...) 
+        - each value in a vector represents a specific feature
+            - a house of 150 sq. m., 4 bedrooms, and 30 years old can look as follows: (150, 4, 30)
+            - example of a model weights: [2000, 1000, -500] meaning that the significance of house size has mupliplier of 2000,
+                number of rooms has multiplier of 1000, and age is a negative multiplier of -500. 
+                Therefore most important feature here is hte size of the house...
+            - predicion = weights * vector_values, (2000, 1000, -500) * (150, 4, 30) = 150 * 2000 + 4 * 1000 + 30 * (-500) = 289000: 
+                the final value will predict house value
+        * ML model is a program that can find patterns or make decisions from a previously unseen dataset.
+        * An AI model is a program that has been trained on a set of data to recognize certain patterns or make certain decisions without further human intervention 
+
+    - Matrices
+        - 2-dimentional array of numbers, representing multiple Vectors
+        - essential for organizing data and making transofrmations 
+        - multiplication
+            (a, b)   (x, y)   (a * x + b * z)(a * y + b * w)
+            (c, d) * (z, w) = (c * x + d * z)(c * y + d * w)
+            in resulting matrix for rows we follow first matrix, for columns the second one
+        - determinant
+            - represents "area" of resulting figure
+            - M =   (a, b
+                     c, d)
+                d(M) = a * d - c * d
+            - there are also formulas to calculate determinant for higher dimentions
+            - used for figuring out if the columns are linearly related, and it also helps to find the inverse of a matrix.
+        - convolutions
+            - the process of adding each element of the image to its local neighbors, weighted by the kernel(filter). 
+            - This is related to a form of mathematical convolution. 
+            - The matrix operation being performed—convolution—is not traditional matrix multiplication
+            - Example: blur filter
