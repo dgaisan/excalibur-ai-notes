@@ -108,3 +108,15 @@ Math behind Data Science, ML, DL
         - the continuous analog of a sum, which is used to calculate areas, volumes, and their generalizations
         - was initially used to solve problems in mathematics and physics, such as finding the area under a curve, or determining displacement from velocity
         - D(f'(x)) = f(x)
+
+
+Feature engineering and selection
+    - the art/science of converting data to the best way possible, which involve an elegant blend of domain expertise, intuition and mathematics
+    - Feature: also known as Attribute/ Independent Variable/ Predictor/ Input Variable. 
+        - It's an individual measurable property/characteristic of a phenomenon being observed. The age of a person, etc
+    - Feature Scaling
+        - a method used to standardize the range of independent variables or features of data. 
+        - In data processing, it is also known as data normalization and is generally performed during the data preprocessing step.
+
+
+Data visualization
