@@ -119,4 +119,50 @@ Feature engineering and selection
         - In data processing, it is also known as data normalization and is generally performed during the data preprocessing step.
 
 
+
+Linear Regression
+    - Linear regression analysis is used to predict the value of a variable based on the value of another variable
+    - The variable you want to predict is called the dependent variable. The variable you are using to predict the other variable's value is called the independent variable.
+    - In machine learning, algorithms analyze large datasets and work backward from that data to calculate the linear regression equation
+        - Data scientists first train the algorithm on known or labeled datasets and then use the algorithm to predict unknown values
+
+
+Cost function
+    - A machine learning parameter that measures the discrepancy between the predicted and actual output of a model. 
+    - For example, in linear regression, the cost function is the mean squared error. 
+
+Gradient descent
+    - An optimization algorithm that finds the parameters that minimize the cost function. 
+    - Gradient descent works by calculating the gradient of the cost function, which indicates the direction of steepest ascent. 
+    - The algorithm then moves in the opposite direction, known as the negative gradient direction, to find the minimum value of the cost function.
+    - Gradient descent is a fundamental part of machine learning and is used in many algorithms, including linear regression, logistic regression, neural networks, and support vector machines. 
+    - The learning rate is a hyperparameter that controls the size of the steps taken in each iteration of gradient descent. 
+    - The learning rate affects the speed and stability of convergence.
+
+Model overfitting
+    - Model overfitting is a machine learning problem that occurs when a model is too closely trained to a training set, making it unable to accurately predict new data
+    - Overfitting can happen when:
+        - The model is too complex
+        - The model trains for too long on the training data
+        - The model memorizes irrelevant information, or "noise", in the training data
+    - Overfitting can lead to models that:
+        - Can't generalize well to new data
+        - Can't make accurate predictions or conclusions from any data other than the training data
+        - Are unable to perform the classification or prediction tasks that they were intended for 
+    - To prevent overfitting, you can try regularization techniques like 
+        - L1 (Lasso) 
+        - L2 (Ridge) regularization, dropout, or early stopping
+
+
+Supervised learning
+    - decision trees
+        - flowchar like structure, each internal node represent a feature
+        - each branch represent a decision rule 
+        - this one root node, internal nodes, and leafs
+    - classification
+        - separate classes as good as possible (maximize metric for best initial split)
+        - Gini impurity is a statistical measure used in decision tree algorithms to evaluate the quality of a split
+            - 
+
+
 Data visualization
